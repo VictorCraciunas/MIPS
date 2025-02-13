@@ -1,0 +1,41 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu May 23 14:50:28 2024
+| Host         : DESKTOP-7AMLJLC running 64-bit major release  (build 9200)
+| Command      : report_drc -file test_env_drc_opted.rpt -pb test_env_drc_opted.pb -rpx test_env_drc_opted.rpx
+| Design       : test_env
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++--------+----------+------------------------------------------------+------------+
+| Rule   | Severity | Description                                    | Violations |
++--------+----------+------------------------------------------------+------------+
+| PLIO-3 | Warning  | Placement Constraints Check for IO constraints | 1          |
++--------+----------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLIO-3#1 Warning
+Placement Constraints Check for IO constraints  
+Partially locked IO Bus is found. Following components of the IO Bus btn[4:0] are not locked:  btn[2]
+Related violations: <none>
+
+
